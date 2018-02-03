@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BBot</title>
+</head>
+<body>
+
+<canvas id="myChart"></canvas>
+
+</body>
+<script src="/lib/chartjs2.7.js"></script>
+<script src="/lib/socket.io.js"></script>
+<script>
+  var socket = io();
+  socket.on('bullbear', function(msg){
+//    console.log('Data ne ', msg);
+    updateData(chart, msg)
+  });
+  var ctx = document.getElementById('myChart').getContext('2d');
+
+  function updateData(chart, data) {
+//    console.log('chart.data.datasets ', chart.data.datasets);
+    chart.data.datasets[0].data = [data.bullP, data.bearP]
+    chart.data.labels[0] = "Bull - "+data.bull
+    chart.data.labels[1] = "Bear - "+data.bear
+    chart.data.datasets[0].label = "Bull vs Bear - " + data.sum
+
+    chart.update();
+  }
+//  setTimeout(function() {
+//    updateData(chart, {bearP: 30, bullP: 70, bull: 1000, bear: 2, sum: 202022})
+//  }, 3000)
+
+  var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+    // The data for our dataset
+    data: {
+      labels: ["Bull - 0", "Bear - 0"],
+      datasets: [
+        {
+          label: "Bull vs Bear - 0",
+          backgroundColor: ["#4cff79", "#ed687c"],
+          data: [0, 0]
+        }
+      ]
+    },
+
+    // Configuration options go here
+    options: {
+      scales: {
+        yAxes: [{
+          ticks: {
+            beginAtZero:true,
+            min: 0,
+            max: 100
+          }
+        }]
+      }
+    }
+  });
+
+//  console.log('chart ', chart);
+
+</script>
+</html>

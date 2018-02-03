@@ -17,3 +17,6 @@ request.get(url + '/pubticker/btcusd',
   function(error, response, body) {
     console.log(body);
   })
+
+
+

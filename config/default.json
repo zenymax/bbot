@@ -1,0 +1,2148 @@
+{
+  "redis": {
+    "host": "127.0.0.1",
+    "port": "6379"
+  },
+  "server": {
+    "server_1": "BITFINEX",
+    "server_2": "BITTREX_00",
+    "server_3": "BINANCE"
+  },
+  "notification_test": {
+    "name": "pushed.co",
+    "rest_api": "https://api.pushed.co/1/push",
+    "app_key": "h0Pg4QzoDTQn1S4M7DvG",
+    "app_secret": "JpDFV14dNew7DsryaFkLVPlyztMcsdImRmOsHImLjJrGoshtqw4MrIHLneBPyNu0",
+    "target_type": "channel",
+    "target_alias": "NpPtOo"
+  },
+  "crash_server": {
+    "name": "pushed.co",
+    "rest_api": "https://api.pushed.co/1/push",
+    "app_key": "h0Pg4QzoDTQn1S4M7DvG",
+    "app_secret": "JpDFV14dNew7DsryaFkLVPlyztMcsdImRmOsHImLjJrGoshtqw4MrIHLneBPyNu0",
+    "target_type": "channel",
+    "target_alias": "Y40nKR"
+  },
+  "notification": {
+    "name": "pushed.co",
+    "rest_api": "https://api.pushed.co/1/push",
+    "app_key": "h0Pg4QzoDTQn1S4M7DvG",
+    "app_secret": "JpDFV14dNew7DsryaFkLVPlyztMcsdImRmOsHImLjJrGoshtqw4MrIHLneBPyNu0",
+    "target_type": "channel",
+    "target_alias": "qL5zJU"
+  },
+  "ctracker_push": {
+    "url": "https://ctracker.goappable.com/push_notification"
+  },
+  "threshold_notification": 10,
+  "fast_signal_threshold_notification": 4,
+  "signal_valid_in_time": 10,
+  "exchanges": [
+    {
+      "name": "bitfinex",
+      "docurl": "https://docs.bitfinex.com/docs",
+      "wssurl": "wss://api.bitfinex.com/ws",
+      "pairs": [
+        {
+          "symbol": "XRPUSD",
+          "alert": 70000
+        },
+        {
+          "symbol": "BTCUSD",
+          "alert": 15
+        },
+        {
+          "symbol": "ETHUSD",
+          "alert": 120
+        },
+        {
+          "symbol": "LTCUSD",
+          "alert": 260
+        },
+        {
+          "symbol": "ETCUSD",
+          "alert": 250
+        },
+        {
+          "symbol": "BTGUSD",
+          "alert": 80
+        },
+        {
+          "symbol": "ZECUSD",
+          "alert": 70
+        },
+        {
+          "symbol": "XMRUSD",
+          "alert": 60
+        },
+        {
+          "symbol": "DSHUSD",
+          "alert": 60
+        },
+        {
+          "symbol": "BCHUSD",
+          "alert": 100
+        },
+        {
+          "symbol": "NEOUSD",
+          "alert": 500
+        },
+        {
+          "symbol": "DATUSD",
+          "alert": 40000
+        },
+        {
+          "symbol": "RRTUSD",
+          "alert": 20000
+        },
+        {
+          "symbol": "IOTUSD",
+          "alert": 50000
+        },
+        {
+          "symbol": "EOSUSD",
+          "alert": 40000
+        },
+        {
+          "symbol": "SANUSD",
+          "alert": 40000
+        },
+        {
+          "symbol": "OMGUSD",
+          "alert": 40000
+        },
+        {
+          "symbol": "ETPUSD",
+          "alert": 40000
+        },
+        {
+          "symbol": "QTMUSD",
+          "alert": 50000
+        },
+        {
+          "symbol": "AVTUSD",
+          "alert": 50000
+        },
+        {
+          "symbol": "EDOUSD",
+          "alert": 50000
+        },
+        {
+          "symbol": "QSHUSD",
+          "alert": 50000
+        },
+        {
+          "symbol": "YYWUSD",
+          "alert": 50000
+        },
+        {
+          "symbol": "GNTUSD",
+          "alert": 50000
+        },
+        {
+          "symbol": "SNTUSD",
+          "alert": 50000
+        },
+        {
+          "symbol": "REPUSD",
+          "alert": 30
+        },
+        {
+          "symbol": "RLCUSD",
+          "alert": 30000
+        },
+        {
+          "symbol": "ELFUSD",
+          "alert": 50000
+        },
+        {
+          "symbol": "ZRXUSD",
+          "alert": 35000
+        },
+        {
+          "symbol": "AIDUSD",
+          "alert": 30000
+        },
+        {
+          "symbol": "BATYSD",
+          "alert": 30000
+        },
+        {
+          "symbol": "SPKUSD",
+          "alert": 30000
+        },
+        {
+          "symbol": "RCNUSD",
+          "alert": 30000
+        },
+        {
+          "symbol": "SNGUSD",
+          "alert": 20000
+        },
+        {
+          "symbol": "MNAUSD",
+          "alert": 30000
+        },
+        {
+          "symbol": "TNBUSD",
+          "alert": 30000
+        },
+        {
+          "symbol": "FUNUSD",
+          "alert": 30000
+        },
+        {
+          "symbol": "TRXBTC",
+          "alert": 40000
+        },
+        {
+          "symbol": "FUNBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "RRTBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "TNBBTC",
+          "alert": 10000
+        },
+        {
+          "symbol": "MNABTC",
+          "alert": 15000
+        },
+        {
+          "symbol": "DATBTC",
+          "alert": 30000
+        },
+        {
+          "symbol": "YYWBTC",
+          "alert": 20000
+        },
+        {
+          "symbol": "SNGBTC",
+          "alert": 10000
+        },
+        {
+          "symbol": "SNTBTC",
+          "alert": 20000
+        },
+        {
+          "symbol": "RCNBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "SPKBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "GNTBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "BATBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "AIDBTC",
+          "alert": 10000
+        },
+        {
+          "symbol": "XRPBTC",
+          "alert": 30000
+        },
+        {
+          "symbol": "QASHBTC",
+          "alert": 10000
+        },
+        {
+          "symbol": "ZRXBTC",
+          "alert": 10000
+        },
+        {
+          "symbol": "ELFBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "RLCBTC",
+          "alert": 5000
+        },
+        {
+          "symbol": "IOTABTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "ETPBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "SANBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "EDOBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "AVTBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "EOSBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "OMGBTC",
+          "alert": 8000
+        },
+        {
+          "symbol": "ETCBTC",
+          "alert": 6000
+        },
+        {
+          "symbol": "QTUMBTC",
+          "alert": 4000
+        },
+        {
+          "symbol": "REPBTC",
+          "alert": 3000
+        },
+        {
+          "symbol": "NEOBTC",
+          "alert": 500
+        },
+        {
+          "symbol": "BTGBTC",
+          "alert": 40
+        },
+        {
+          "symbol": "LTCBTC",
+          "alert": 120
+        },
+        {
+          "symbol": "XMRBTC",
+          "alert": 50
+        },
+        {
+          "symbol": "ZECBTC",
+          "alert": 70
+        },
+        {
+          "symbol": "DASHBTC",
+          "alert": 60
+        },
+        {
+          "symbol": "ETHBTC",
+          "alert": 60
+        },
+        {
+          "symbol": "BCHBTC",
+          "alert": 50
+        },
+        {
+          "symbol": "BCHETH",
+          "alert": 60
+        },
+        {
+          "symbol": "NEOETH",
+          "alert": 50
+        },
+        {
+          "symbol": "REPETH",
+          "alert": 40
+        },
+        {
+          "symbol": "QTUMETH",
+          "alert": 100
+        },
+        {
+          "symbol": "OMGETH",
+          "alert": 500
+        },
+        {
+          "symbol": "EOSETH",
+          "alert": 8000
+        },
+        {
+          "symbol": "AVTETH",
+          "alert": 8000
+        },
+        {
+          "symbol": "EDOETH",
+          "alert": 5000
+        },
+        {
+          "symbol": "ETPETH",
+          "alert": 8000
+        },
+        {
+          "symbol": "IOTAETH",
+          "alert": 8000
+        },
+        {
+          "symbol": "SANETH",
+          "alert": 10000
+        },
+        {
+          "symbol": "RLCETH",
+          "alert": 10000
+        },
+        {
+          "symbol": "ELFETH",
+          "alert": 10000
+        },
+        {
+          "symbol": "ZRXETH",
+          "alert": 5000
+        },
+        {
+          "symbol": "QASHETH",
+          "alert": 10000
+        },
+        {
+          "symbol": "AIDETH",
+          "alert": 10000
+        },
+        {
+          "symbol": "BATETH",
+          "alert": 10000
+        },
+        {
+          "symbol": "GNTETH",
+          "alert": 10000
+        },        {
+          "symbol": "SPKETH",
+          "alert": 6000
+        },
+        {
+          "symbol": "RCNETH",
+          "alert": 10000
+        },
+        {
+          "symbol": "SNTETH",
+          "alert": 15000
+        },
+        {
+          "symbol": "SNGETH",
+          "alert": 15000
+        },
+        {
+          "symbol": "DATETH",
+          "alert": 15000
+        },
+        {
+          "symbol": "YYWETH",
+          "alert": 15000
+        },
+        {
+          "symbol": "FUNETH",
+          "alert": 15000
+        },
+        {
+          "symbol": "TNBETH",
+          "alert": 50000
+        },
+        {
+          "symbol": "MNAETH",
+          "alert": 10000
+        },
+        {
+          "symbol": "TRXETH",
+          "alert": 40000
+        }
+      ],
+      "active": "N"
+    },
+    {
+      "name": "gdax",
+      "docurl": "https://docs.gdax.com/#websocket-feed",
+      "wssurl": "wss://ws-feed.gdax.com",
+      "pairs": [
+        {
+          "symbol": "ETH-BTC"
+        },
+        {
+          "symbol": "ETH-USD"
+        },
+        {
+          "symbol": "ETH-EUR"
+        },
+        {
+          "symbol": "BTC-USD"
+        },
+        {
+          "symbol": "BTC-EUR"
+        }
+      ],
+      "active": "N"
+    },
+    {
+      "name": "bitstamp",
+      "docurl": "https://www.bitstamp.net/websocket/",
+      "wssurl": "noWssUrl",
+      "pairs": [
+        {
+          "symbol": "EURUSD"
+        },
+        {
+          "symbol": "XRPUSD"
+        },
+        {
+          "symbol": "XRPEUR"
+        },
+        {
+          "symbol": "XRPBTC"
+        },
+        {
+          "symbol": "LTCUSD"
+        },
+        {
+          "symbol": "LTCEUR"
+        },
+        {
+          "symbol": "LTCBTC"
+        },
+        {
+          "symbol": "ETHUSD"
+        },
+        {
+          "symbol": "ETHEUR"
+        },
+        {
+          "symbol": "ETHBTC"
+        },
+        {
+          "symbol": "BCHUSD"
+        },
+        {
+          "symbol": "BCHEUR"
+        },
+        {
+          "symbol": "BCHBTC"
+        },
+        {
+          "symbol": "BTCUSD"
+        },
+        {
+          "symbol": "BTCEUR"
+        }
+      ],
+      "active": "N"
+    },
+    {
+      "name": "binance",
+      "docurl": "https://github.com/binance-exchange/binance-official-api-docs/blob/master/web-socket-streams.md",
+      "wssurl": "wss://stream.binance.com:9443",
+      "pairs": [
+        {
+          "symbol": "ADABTC"
+        },
+        {
+          "symbol": "ADAETH"
+        },
+        {
+          "symbol": "ADXBNB"
+        },
+        {
+          "symbol": "ADXBTC"
+        },
+        {
+          "symbol": "ADXETH"
+        },
+        {
+          "symbol": "AIONBNB"
+        },
+        {
+          "symbol": "AIONBTC"
+        },
+        {
+          "symbol": "AIONETH"
+        },
+        {
+          "symbol": "AMBBNB"
+        },
+        {
+          "symbol": "AMBBTC"
+        },
+        {
+          "symbol": "AMBETH"
+        },
+        {
+          "symbol": "ARKBTC"
+        },
+        {
+          "symbol": "ARKETH"
+        },
+        {
+          "symbol": "ARNBTC"
+        },
+        {
+          "symbol": "ARNETH"
+        },
+        {
+          "symbol": "ASTBTC"
+        },
+        {
+          "symbol": "ASTETH"
+        },
+        {
+          "symbol": "BATBNB"
+        },
+        {
+          "symbol": "BATBTC"
+        },
+        {
+          "symbol": "BATETH"
+        },
+        {
+          "symbol": "BCCBNB"
+        },
+        {
+          "symbol": "BCCBTC"
+        },
+        {
+          "symbol": "BCCETH"
+        },
+        {
+          "symbol": "BCCUSDT"
+        },
+        {
+          "symbol": "BCDBTC"
+        },
+        {
+          "symbol": "BCDETH"
+        },
+        {
+          "symbol": "BCPTBNB"
+        },
+        {
+          "symbol": "BCPTBTC"
+        },
+        {
+          "symbol": "BCPTETH"
+        },
+        {
+          "symbol": "BNBBTC"
+        },
+        {
+          "symbol": "BNBETH"
+        },
+        {
+          "symbol": "BNBUSDT"
+        },
+        {
+          "symbol": "BNTBTC"
+        },
+        {
+          "symbol": "BNTETH"
+        },
+        {
+          "symbol": "BQXBTC"
+        },
+        {
+          "symbol": "BQXETH"
+        },
+        {
+          "symbol": "BRDBNB"
+        },
+        {
+          "symbol": "BRDBTC"
+        },
+        {
+          "symbol": "BRDETH"
+        },
+        {
+          "symbol": "BTCUSDT"
+        },
+        {
+          "symbol": "BTGBTC"
+        },
+        {
+          "symbol": "BTGETH"
+        },
+        {
+          "symbol": "BTSBNB"
+        },
+        {
+          "symbol": "BTSBTC"
+        },
+        {
+          "symbol": "BTSETH"
+        },
+        {
+          "symbol": "CDTBTC"
+        },
+        {
+          "symbol": "CDTETH"
+        },
+        {
+          "symbol": "CMTBNB"
+        },
+        {
+          "symbol": "CMTBTC"
+        },
+        {
+          "symbol": "CMTETH"
+        },
+        {
+          "symbol": "CNDBNB"
+        },
+        {
+          "symbol": "CNDBTC"
+        },
+        {
+          "symbol": "CNDETH"
+        },
+        {
+          "symbol": "CTRBTC"
+        },
+        {
+          "symbol": "CTRETH"
+        },
+        {
+          "symbol": "DASHBTC"
+        },
+        {
+          "symbol": "DASHETH"
+        },
+        {
+          "symbol": "DGDBTC"
+        },
+        {
+          "symbol": "DGDETH"
+        },
+        {
+          "symbol": "DLTBNB"
+        },
+        {
+          "symbol": "DLTBTC"
+        },
+        {
+          "symbol": "DLTETH"
+        },
+        {
+          "symbol": "DNTBTC"
+        },
+        {
+          "symbol": "DNTETH"
+        },
+        {
+          "symbol": "EDOBTC"
+        },
+        {
+          "symbol": "EDOETH"
+        },
+        {
+          "symbol": "ELFBTC"
+        },
+        {
+          "symbol": "ELFETH"
+        },
+        {
+          "symbol": "ENGBTC"
+        },
+        {
+          "symbol": "ENGETH"
+        },
+        {
+          "symbol": "ENJBTC"
+        },
+        {
+          "symbol": "ENJETH"
+        },
+        {
+          "symbol": "EOSBTC"
+        },
+        {
+          "symbol": "EOSETH"
+        },
+        {
+          "symbol": "ETCBTC"
+        },
+        {
+          "symbol": "ETCETH"
+        },
+        {
+          "symbol": "ETHBTC"
+        },
+        {
+          "symbol": "ETHUSDT"
+        },
+        {
+          "symbol": "EVXBTC"
+        },
+        {
+          "symbol": "EVXETH"
+        },
+        {
+          "symbol": "FUELBTC"
+        },
+        {
+          "symbol": "FUELETH"
+        },
+        {
+          "symbol": "FUNBTC"
+        },
+        {
+          "symbol": "FUNETH"
+        },
+        {
+          "symbol": "GASBTC"
+        },
+        {
+          "symbol": "GTOBNB"
+        },
+        {
+          "symbol": "GTOBTC"
+        },
+        {
+          "symbol": "GTOETH"
+        },
+        {
+          "symbol": "GVTBTC"
+        },
+        {
+          "symbol": "GVTETH"
+        },
+        {
+          "symbol": "GXSBTC"
+        },
+        {
+          "symbol": "GXSETH"
+        },
+        {
+          "symbol": "HSRBTC"
+        },
+        {
+          "symbol": "HSRETH"
+        },
+        {
+          "symbol": "ICNBTC"
+        },
+        {
+          "symbol": "ICNETH"
+        },
+        {
+          "symbol": "ICXBNB"
+        },
+        {
+          "symbol": "ICXBTC"
+        },
+        {
+          "symbol": "ICXETH"
+        },
+        {
+          "symbol": "IOTABNB"
+        },
+        {
+          "symbol": "IOTABTC"
+        },
+        {
+          "symbol": "IOTAETH"
+        },
+        {
+          "symbol": "KMDBTC"
+        },
+        {
+          "symbol": "KMDETH"
+        },
+        {
+          "symbol": "KNCBTC"
+        },
+        {
+          "symbol": "KNCETH"
+        },
+        {
+          "symbol": "LENDBTC"
+        },
+        {
+          "symbol": "LENDETH"
+        },
+        {
+          "symbol": "LINKBTC"
+        },
+        {
+          "symbol": "LINKETH"
+        },
+        {
+          "symbol": "LRCBTC"
+        },
+        {
+          "symbol": "LRCETH"
+        },
+        {
+          "symbol": "LSKBNB"
+        },
+        {
+          "symbol": "LSKBTC"
+        },
+        {
+          "symbol": "LSKETH"
+        },
+        {
+          "symbol": "LTCBNB"
+        },
+        {
+          "symbol": "LTCBTC"
+        },
+        {
+          "symbol": "LTCETH"
+        },
+        {
+          "symbol": "LTCUSDT"
+        },
+        {
+          "symbol": "LUNBTC"
+        },
+        {
+          "symbol": "LUNETH"
+        },
+        {
+          "symbol": "MANABTC"
+        },
+        {
+          "symbol": "MANAETH"
+        },
+        {
+          "symbol": "MCOBNB"
+        },
+        {
+          "symbol": "MCOBTC"
+        },
+        {
+          "symbol": "MCOETH"
+        },
+        {
+          "symbol": "MDABTC"
+        },
+        {
+          "symbol": "MDAETH"
+        },
+        {
+          "symbol": "MODBTC"
+        },
+        {
+          "symbol": "MODETH"
+        },
+        {
+          "symbol": "MTHBTC"
+        },
+        {
+          "symbol": "MTHETH"
+        },
+        {
+          "symbol": "MTLBTC"
+        },
+        {
+          "symbol": "MTLETH"
+        },
+        {
+          "symbol": "NAVBNB"
+        },
+        {
+          "symbol": "NAVBTC"
+        },
+        {
+          "symbol": "NAVETH"
+        },
+        {
+          "symbol": "NEBLBNB"
+        },
+        {
+          "symbol": "NEBLBTC"
+        },
+        {
+          "symbol": "NEBLETH"
+        },
+        {
+          "symbol": "NEOBNB"
+        },
+        {
+          "symbol": "NEOBTC"
+        },
+        {
+          "symbol": "NEOETH"
+        },
+        {
+          "symbol": "NEOUSDT"
+        },
+        {
+          "symbol": "NULSBNB"
+        },
+        {
+          "symbol": "NULSBTC"
+        },
+        {
+          "symbol": "NULSETH"
+        },
+        {
+          "symbol": "OAXBTC"
+        },
+        {
+          "symbol": "OAXETH"
+        },
+        {
+          "symbol": "OMGBTC"
+        },
+        {
+          "symbol": "OMGETH"
+        },
+        {
+          "symbol": "OSTBNB"
+        },
+        {
+          "symbol": "OSTBTC"
+        },
+        {
+          "symbol": "OSTETH"
+        },
+        {
+          "symbol": "POEBTC"
+        },
+        {
+          "symbol": "POEETH"
+        },
+        {
+          "symbol": "POWRBNB"
+        },
+        {
+          "symbol": "POWRBTC"
+        },
+        {
+          "symbol": "POWRETH"
+        },
+        {
+          "symbol": "PPTBTC"
+        },
+        {
+          "symbol": "PPTETH"
+        },
+        {
+          "symbol": "QSPBNB"
+        },
+        {
+          "symbol": "QSPBTC"
+        },
+        {
+          "symbol": "QSPETH"
+        },
+        {
+          "symbol": "QTUMBTC"
+        },
+        {
+          "symbol": "QTUMETH"
+        },
+        {
+          "symbol": "RCNBNB"
+        },
+        {
+          "symbol": "RCNBTC"
+        },
+        {
+          "symbol": "RCNETH"
+        },
+        {
+          "symbol": "RDNBNB"
+        },
+        {
+          "symbol": "RDNBTC"
+        },
+        {
+          "symbol": "RDNETH"
+        },
+        {
+          "symbol": "REQBTC"
+        },
+        {
+          "symbol": "REQETH"
+        },
+        {
+          "symbol": "SALTBTC"
+        },
+        {
+          "symbol": "SALTETH"
+        },
+        {
+          "symbol": "SNGLSBTC"
+        },
+        {
+          "symbol": "SNGLSETH"
+        },
+        {
+          "symbol": "SNMBTC"
+        },
+        {
+          "symbol": "SNMETH"
+        },
+        {
+          "symbol": "SNTBTC"
+        },
+        {
+          "symbol": "SNTETH"
+        },
+        {
+          "symbol": "STORJBTC"
+        },
+        {
+          "symbol": "STORJETH"
+        },
+        {
+          "symbol": "STRATBTC"
+        },
+        {
+          "symbol": "STRATETH"
+        },
+        {
+          "symbol": "SUBBTC"
+        },
+        {
+          "symbol": "SUBETH"
+        },
+        {
+          "symbol": "TNBBTC"
+        },
+        {
+          "symbol": "TNBETH"
+        },
+        {
+          "symbol": "TNTBTC"
+        },
+        {
+          "symbol": "TNTETH"
+        },
+        {
+          "symbol": "TRIGBNB"
+        },
+        {
+          "symbol": "TRIGBTC"
+        },
+        {
+          "symbol": "TRIGETH"
+        },
+        {
+          "symbol": "TRXBTC"
+        },
+        {
+          "symbol": "TRXETH"
+        },
+        {
+          "symbol": "VENBNB"
+        },
+        {
+          "symbol": "VENBTC"
+        },
+        {
+          "symbol": "VENETH"
+        },
+        {
+          "symbol": "VIBBTC"
+        },
+        {
+          "symbol": "VIBETH"
+        },
+        {
+          "symbol": "WABIBNB"
+        },
+        {
+          "symbol": "WABIBTC"
+        },
+        {
+          "symbol": "WABIETH"
+        },
+        {
+          "symbol": "WAVESBNB"
+        },
+        {
+          "symbol": "WAVESBTC"
+        },
+        {
+          "symbol": "WAVESETH"
+        },
+        {
+          "symbol": "WINGSBTC"
+        },
+        {
+          "symbol": "WINGSETH"
+        },
+        {
+          "symbol": "WTCBNB"
+        },
+        {
+          "symbol": "WTCBTC"
+        },
+        {
+          "symbol": "WTCETH"
+        },
+        {
+          "symbol": "XLMBNB"
+        },
+        {
+          "symbol": "XLMBTC"
+        },
+        {
+          "symbol": "XLMETH"
+        },
+        {
+          "symbol": "XMRBTC"
+        },
+        {
+          "symbol": "XMRETH"
+        },
+        {
+          "symbol": "XRPBTC"
+        },
+        {
+          "symbol": "XRPETH"
+        },
+        {
+          "symbol": "XVGBTC"
+        },
+        {
+          "symbol": "XVGETH"
+        },
+        {
+          "symbol": "XZCBNB"
+        },
+        {
+          "symbol": "XZCBTC"
+        },
+        {
+          "symbol": "XZCETH"
+        },
+        {
+          "symbol": "YOYOBNB"
+        },
+        {
+          "symbol": "YOYOBTC"
+        },
+        {
+          "symbol": "YOYOETH"
+        },
+        {
+          "symbol": "ZECBTC"
+        },
+        {
+          "symbol": "ZECETH"
+        },
+        {
+          "symbol": "ZRXBTC"
+        },
+        {
+          "symbol": "ZRXETH"
+        }
+      ],
+      "active": "Y"
+    },
+    {
+      "name": "hitbtc",
+      "docurl": "https://api.hitbtc.com/#socket-market-data",
+      "wssurl": "wss://api.hitbtc.com/api/2/ws",
+      "pairs": [
+        {
+          "symbol": "BTCUSD"
+        },
+        {
+          "symbol": "LTCUSD"
+        },
+        {
+          "symbol": "LTCBTC"
+        },
+        {
+          "symbol": "ETHUSD"
+        },
+        {
+          "symbol": "ETHBTC"
+        },
+        {
+          "symbol": "ETCUSD"
+        },
+        {
+          "symbol": "ETCBTC"
+        },
+        {
+          "symbol": "ZECUSD"
+        },
+        {
+          "symbol": "ZECBTC"
+        }
+      ],
+      "active": "N"
+    },
+    {
+      "name": "bittrex",
+      "docurl": "https://www.npmjs.com/package/node.bittrex.api",
+      "wssurl": "Not Available",
+      "pairs": [{
+        "symbol": "BTC-DOGE",
+        "alert": 30000000
+      },
+        {
+          "symbol": "BTC-VTC",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-LTC",
+          "alert": 120
+        },
+        {
+          "symbol": "BTC-PPC",
+          "alert": 280
+        },
+        {
+          "symbol": "BTC-FTC",
+          "alert": 12000
+        },
+        {
+          "symbol": "BTC-RDD",
+          "alert": 3000000
+        },
+        {
+          "symbol": "BTC-NXT",
+          "alert": 20000
+        },
+        {
+          "symbol": "BTC-DASH",
+          "alert": 50
+        },
+        {
+          "symbol": "BTC-POT",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-BLK",
+          "alert": 3000
+        },
+        {
+          "symbol": "BTC-EMC2",
+          "alert": 5000
+        },
+        {
+          "symbol": "BTC-XMY",
+          "alert": 200000
+        },
+        {
+          "symbol": "BTC-AUR",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-EFL",
+          "alert": 5000
+        },
+        {
+          "symbol": "BTC-GLD",
+          "alert": 5000
+        },
+        {
+          "symbol": "BTC-SLR",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-PTC",
+          "alert": 15000
+        },
+        {
+          "symbol": "BTC-GRS",
+          "alert": 5500
+        },
+        {
+          "symbol": "BTC-NLG",
+          "alert": 10000
+        },
+        {
+          "symbol": "BTC-RBY",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-XWC",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-MONA",
+          "alert": 800
+        },
+        {
+          "symbol": "BTC-THC",
+          "alert": 9000
+        },
+        {
+          "symbol": "BTC-ENRG",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-ERC",
+          "alert": 1300
+        },
+        {
+          "symbol": "BTC-VRC",
+          "alert": 4000
+        },
+        {
+          "symbol": "BTC-CURE",
+          "alert": 4000
+        },
+        {
+          "symbol": "BTC-XMR",
+          "alert": 60
+        },
+        {
+          "symbol": "BTC-CLOAK",
+          "alert": 400
+        },
+        {
+          "symbol": "BTC-START",
+          "alert": 20000
+        },
+        {
+          "symbol": "BTC-KORE",
+          "alert": 200
+        },
+        {
+          "symbol": "BTC-XDN",
+          "alert": 100000
+        },
+        {
+          "symbol": "BTC-TRUST",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-NAV",
+          "alert": 1200
+        },
+        {
+          "symbol": "BTC-XST",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-BTCD",
+          "alert": 10
+        },
+        {
+          "symbol": "BTC-VIA",
+          "alert": 500
+        },
+        {
+          "symbol": "BTC-PINK",
+          "alert": 40000
+        },
+        {
+          "symbol": "BTC-IOC",
+          "alert": 1200
+        },
+        {
+          "symbol": "BTC-CANN",
+          "alert": 10000
+        },
+        {
+          "symbol": "BTC-SYS",
+          "alert": 32000
+        },
+        {
+          "symbol": "BTC-NEOS",
+          "alert": 300
+        },
+        {
+          "symbol": "BTC-DGB",
+          "alert": 250000
+        },
+        {
+          "symbol": "BTC-BURST",
+          "alert": 100000
+        },
+        {
+          "symbol": "BTC-EXCL",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-DOPE",
+          "alert": 10000
+        },
+        {
+          "symbol": "BTC-BLOCK",
+          "alert": 100
+        },
+        {
+          "symbol": "BTC-ABY",
+          "alert": 200000
+        },
+        {
+          "symbol": "BTC-BYC",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-XMG",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-BLITZ",
+          "alert": 400
+        },
+        {
+          "symbol": "BTC-BAY",
+          "alert": 30000
+        },
+        {
+          "symbol": "BTC-FAIR",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-SPR",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-VTR",
+          "alert": 3000
+        },
+        {
+          "symbol": "BTC-XRP",
+          "alert": 18000
+        },
+        {
+          "symbol": "BTC-GAME",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-COVAL",
+          "alert": 150000
+        },
+        {
+          "symbol": "BTC-NXS",
+          "alert": 1500
+        },
+        {
+          "symbol": "BTC-XCP",
+          "alert": 180
+        },
+        {
+          "symbol": "BTC-BITB",
+          "alert": 150000
+        },
+        {
+          "symbol": "BTC-GEO",
+          "alert": 600
+        },
+        {
+          "symbol": "BTC-FLDC",
+          "alert": 50000
+        },
+        {
+          "symbol": "BTC-GRC",
+          "alert": 20000
+        },
+        {
+          "symbol": "BTC-FLO",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-NBT",
+          "alert": 35000
+        },
+        {
+          "symbol": "BTC-MUE",
+          "alert": 10000
+        },
+        {
+          "symbol": "BTC-XEM",
+          "alert": 20000
+        },
+        {
+          "symbol": "BTC-CLAM",
+          "alert": 100
+        },
+        {
+          "symbol": "BTC-DMD",
+          "alert": 50
+        },
+        {
+          "symbol": "BTC-GAM",
+          "alert": 60
+        },
+        {
+          "symbol": "BTC-SPHR",
+          "alert": 800
+        },
+        {
+          "symbol": "BTC-OK",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-SNRG",
+          "alert": 500
+        },
+        {
+          "symbol": "BTC-PKB",
+          "alert": 600
+        },
+        {
+          "symbol": "BTC-CPC",
+          "alert": 3000
+        },
+        {
+          "symbol": "BTC-AEON",
+          "alert": 500
+        },
+        {
+          "symbol": "BTC-ETH",
+          "alert": 60
+        },
+        {
+          "symbol": "BTC-GCR",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-TX",
+          "alert": 800
+        },
+        {
+          "symbol": "BTC-BCY",
+          "alert": 2000
+        },
+        {
+          "symbol": "BTC-EXP",
+          "alert": 700
+        },
+        {
+          "symbol": "BTC-INFX",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-OMNI",
+          "alert": 50
+        },
+        {
+          "symbol": "BTC-AMP",
+          "alert": 5500
+        },
+        {
+          "symbol": "BTC-AGRS",
+          "alert": 900
+        },
+        {
+          "symbol": "BTC-XLM",
+          "alert": 50000
+        },
+        {
+          "symbol": "BTC-CLUB",
+          "alert": 800
+        },
+        {
+          "symbol": "BTC-VOX",
+          "alert": 25000
+        },
+        {
+          "symbol": "BTC-EMC",
+          "alert": 300
+        },
+        {
+          "symbol": "BTC-FCT",
+          "alert": 200
+        },
+        {
+          "symbol": "BTC-MAID",
+          "alert": 13000
+        },
+        {
+          "symbol": "BTC-EGC",
+          "alert": 5000
+        },
+        {
+          "symbol": "BTC-SLS",
+          "alert": 60
+        },
+        {
+          "symbol": "BTC-RADS",
+          "alert": 400
+        },
+        {
+          "symbol": "BTC-DCR",
+          "alert": 400
+        },
+        {
+          "symbol": "BTC-BSD",
+          "alert": 29000
+        },
+        {
+          "symbol": "BTC-XVG",
+          "alert": 250000
+        },
+        {
+          "symbol": "BTC-PIVX",
+          "alert": 1700
+        },
+        {
+          "symbol": "BTC-XVC",
+          "alert": 2500
+        },
+        {
+          "symbol": "BTC-MEME",
+          "alert": 3000
+        },
+        {
+          "symbol": "BTC-STEEM",
+          "alert": 4000
+        },
+        {
+          "symbol": "BTC-2GIVE",
+          "alert": 150000
+        },
+        {
+          "symbol": "BTC-LSK",
+          "alert": 500
+        },
+        {
+          "symbol": "BTC-PDC",
+          "alert": 4000
+        },
+        {
+          "symbol": "BTC-BRK",
+          "alert": 2000
+        },
+        {
+          "symbol": "BTC-WAVES",
+          "alert": 800
+        },
+        {
+          "symbol": "BTC-RISE",
+          "alert": 6000
+        },
+        {
+          "symbol": "BTC-LBC",
+          "alert": 7000
+        },
+        {
+          "symbol": "BTC-SBD",
+          "alert": 600
+        },
+        {
+          "symbol": "BTC-BRX",
+          "alert": 1800
+        },
+        {
+          "symbol": "BTC-ETC",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-STRAT",
+          "alert": 700
+        },
+        {
+          "symbol": "BTC-UNB",
+          "alert": 3300
+        },
+        {
+          "symbol": "BTC-SYNX",
+          "alert": 3500
+        },
+        {
+          "symbol": "BTC-EBST",
+          "alert": 9000
+        },
+        {
+          "symbol": "BTC-VRM",
+          "alert": 400
+        },
+        {
+          "symbol": "BTC-SEQ",
+          "alert": 2000
+        },
+        {
+          "symbol": "BTC-REP",
+          "alert": 120
+        },
+        {
+          "symbol": "BTC-SHIFT",
+          "alert": 900
+        },
+        {
+          "symbol": "BTC-XZC",
+          "alert": 120
+        },
+        {
+          "symbol": "BTC-NEO",
+          "alert": 300
+        },
+        {
+          "symbol": "BTC-ZEC",
+          "alert": 80
+        },
+        {
+          "symbol": "BTC-ZCL",
+          "alert": 800
+        },
+        {
+          "symbol": "BTC-IOP",
+          "alert": 400
+        },
+        {
+          "symbol": "BTC-GOLOS",
+          "alert": 2000
+        },
+        {
+          "symbol": "BTC-UBQ",
+          "alert": 5000
+        },
+        {
+          "symbol": "BTC-KMD",
+          "alert": 1200
+        },
+        {
+          "symbol": "BTC-GBG",
+          "alert": 4000
+        },
+        {
+          "symbol": "BTC-SIB",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-ION",
+          "alert": 600
+        },
+        {
+          "symbol": "BTC-LMC",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-QWARK",
+          "alert": 3000
+        },
+        {
+          "symbol": "BTC-CRW",
+          "alert": 400
+        },
+        {
+          "symbol": "BTC-SWT",
+          "alert": 900
+        },
+        {
+          "symbol": "BTC-MLN",
+          "alert": 18
+        },
+        {
+          "symbol": "BTC-ARK",
+          "alert": 1500
+        },
+        {
+          "symbol": "BTC-DYN",
+          "alert": 500
+        },
+        {
+          "symbol": "BTC-TKS",
+          "alert": 300
+        },
+        {
+          "symbol": "BTC-MUSIC",
+          "alert": 50000
+        },
+        {
+          "symbol": "BTC-DTB",
+          "alert": 1800
+        },
+        {
+          "symbol": "BTC-INCNT",
+          "alert": 3000
+        },
+        {
+          "symbol": "BTC-GBYTE",
+          "alert": 10
+        },
+        {
+          "symbol": "BTC-GNT",
+          "alert": 9000
+        },
+        {
+          "symbol": "BTC-NXC",
+          "alert": 2000
+        },
+        {
+          "symbol": "BTC-EDG",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-LGD",
+          "alert": 1500
+        },
+        {
+          "symbol": "BTC-TRST",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-WINGS",
+          "alert": 4000
+        },
+        {
+          "symbol": "BTC-RLC",
+          "alert": 3000
+        },
+        {
+          "symbol": "BTC-GNO",
+          "alert": 40
+        },
+        {
+          "symbol": "BTC-GUP",
+          "alert": 10000
+        },
+        {
+          "symbol": "BTC-LUN",
+          "alert": 100
+        },
+        {
+          "symbol": "BTC-HMQ",
+          "alert": 9000
+        },
+        {
+          "symbol": "BTC-ANT",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-SC",
+          "alert": 500000
+        },
+        {
+          "symbol": "BTC-BAT",
+          "alert": 5000
+        },
+        {
+          "symbol": "BTC-ZEN",
+          "alert": 100
+        },
+        {
+          "symbol": "BTC-1ST",
+          "alert": 1900
+        },
+        {
+          "symbol": "BTC-QRL",
+          "alert": 1500
+        },
+        {
+          "symbol": "BTC-CRB",
+          "alert": 3000
+        },
+        {
+          "symbol": "BTC-PTOY",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-CFI",
+          "alert": 30000
+        },
+        {
+          "symbol": "BTC-BNT",
+          "alert": 1500
+        },
+        {
+          "symbol": "BTC-NMR",
+          "alert": 100
+        },
+        {
+          "symbol": "BTC-SNT",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-DCT",
+          "alert": 1000
+        },
+        {
+          "symbol": "BTC-XEL",
+          "alert": 8000
+        },
+        {
+          "symbol": "BTC-MCO",
+          "alert": 700
+        },
+        {
+          "symbol": "BTC-ADT",
+          "alert": 12000
+        },
+        {
+          "symbol": "BTC-FUN",
+          "alert": 140000
+        },
+        {
+          "symbol": "BTC-PAY",
+          "alert": 3000
+        },
+        {
+          "symbol": "BTC-STORJ",
+          "alert": 2200
+        },
+        {
+          "symbol": "BTC-ADX",
+          "alert": 2500
+        },
+        {
+          "symbol": "BTC-OMG",
+          "alert": 500
+        },
+        {
+          "symbol": "BTC-CVC",
+          "alert": 10000
+        },
+        {
+          "symbol": "BTC-PART",
+          "alert": 120
+        },
+        {
+          "symbol": "BTC-QTUM",
+          "alert": 600
+        },
+        {
+          "symbol": "BTC-BCC",
+          "alert": 10
+        },
+        {
+          "symbol": "BTC-DNT",
+          "alert": 30000
+        },
+        {
+          "symbol": "BTC-ADA",
+          "alert": 50000
+        },
+        {
+          "symbol": "BTC-MANA",
+          "alert": 40000
+        },
+        {
+          "symbol": "BTC-SALT",
+          "alert": 500
+        },
+        {
+          "symbol": "BTC-TIX",
+          "alert": 4000
+        },
+        {
+          "symbol": "BTC-RCN",
+          "alert": 30000
+        },
+        {
+          "symbol": "BTC-VIB",
+          "alert": 15000
+        },
+        {
+          "symbol": "BTC-MER",
+          "alert": 20000
+        },
+        {
+          "symbol": "BTC-POWR",
+          "alert": 10000
+        },
+        {
+          "symbol": "BTC-BTG",
+          "alert": 250
+        },
+        {
+          "symbol": "BTC-ENG",
+          "alert": 5000
+        },
+        {
+          "symbol": "BTC-UKG",
+          "alert": 9000
+        }],
+      "active": "N"
+    },
+    {
+      "name": "okex",
+      "docurl": "https://www.okex.com/ws_getStarted.html",
+      "wssurl": "wss://real.okex.com:10440/websocket/okexapi",
+      "pairs": [
+        {
+          "symbol": "LTC_BTC"
+        },
+        {
+          "symbol": "ETH_BTC"
+        },
+        {
+          "symbol": "ETC_BTC"
+        },
+        {
+          "symbol": "BCH_BTC"
+        },
+        {
+          "symbol": "BTC_USDT"
+        },
+        {
+          "symbol": "ETH_USDT"
+        },
+        {
+          "symbol": "LTC_USDT"
+        },
+        {
+          "symbol": "ETC_USDT"
+        },
+        {
+          "symbol": "BCH_USDT"
+        },
+        {
+          "symbol": "ETC_ETH"
+        },
+        {
+          "symbol": "BT1_BTC"
+        },
+        {
+          "symbol": "BT2_BTC"
+        },
+        {
+          "symbol": "BTG_BTC"
+        },
+        {
+          "symbol": "QTUM_BTC"
+        },
+        {
+          "symbol": "HSR_BTC"
+        },
+        {
+          "symbol": "NEO_BTC"
+        },
+        {
+          "symbol": "GAS_BTC"
+        },
+        {
+          "symbol": "QTUM_USDT"
+        },
+        {
+          "symbol": "HSR_USDT"
+        },
+        {
+          "symbol": "NEO_USDT"
+        },
+        {
+          "symbol": "GAS_USDT"
+        }
+      ],
+      "active": "N"
+    },
+    {
+      "name": "huobiapi",
+      "docurl": "https://github.com/huobiapi/API_Docs_en/wiki/WS_General",
+      "wssurl": "wss://api.huobi.pro/ws",
+      "pairs": [
+        {
+          "symbol": "LTCBTC"
+        },
+        {
+          "symbol": "ETHBTC"
+        },
+        {
+          "symbol": "ETCBTC"
+        }
+      ],
+      "active": "N"
+    },
+    {
+      "name": "gemini",
+      "docurl": "https://docs.gemini.com/websocket-api/#market-data",
+      "wssurl": "wss://api.gemini.com/v1/marketdata",
+      "pairs": [
+        {
+          "symbol": "BTCUSD"
+        },
+        {
+          "symbol": "ETHUSD"
+        },
+        {
+          "symbol": "ETHBTC"
+        }
+      ],
+      "active": "N"
+    }
+  ]
+}
