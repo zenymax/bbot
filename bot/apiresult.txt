@@ -1,0 +1,118 @@
+1.new orders
+{
+    "id": 7868279427,
+    "cid": 33399083890,
+    "cid_date": "2018-02-03",
+    "gid": null,
+    "symbol": "edousd",
+    "exchange": "bitfinex",
+    "price": "2.62",
+    "avg_execution_price": "0.0",
+    "side": "sell",
+    "type": "limit",
+    "timestamp": "1517649399.102781403",
+    "is_live": true,
+    "is_cancelled": false,
+    "is_hidden": false,
+    "oco_order": null,
+    "was_forced": false,
+    "original_amount": "17.0",
+    "remaining_amount": "17.0",
+    "executed_amount": "0.0",
+    "src": "api",
+    "order_id": 7868279427
+}
+
+2.order status
+{
+    "id": 7868279427,
+    "cid": 33399083890,
+    "cid_date": "2018-02-03",
+    "gid": null,
+    "symbol": "edousd",
+    "exchange": "bitfinex",
+    "price": "2.6",
+    "avg_execution_price": "2.6",
+    "side": "sell",
+    "type": "limit",
+    "timestamp": "1517649399.0",
+    "is_live": false,
+    "is_cancelled": false,
+    "is_hidden": false,
+    "oco_order": null,
+    "was_forced": false,
+    "original_amount": "17.0",
+    "remaining_amount": "0.0",
+    "executed_amount": "17.0",
+    "src": "api"
+}
+
+4. positions
+[
+    {
+        "id": 134845999,
+        "symbol": "edousd",
+        "status": "ACTIVE",
+        "base": "2.6",
+        "amount": "-17.0",
+        "timestamp": "1517652166.0",
+        "swap": "-0.00003842",
+        "pl": "0.7650034"
+    }
+]
+
+3.close position
+{
+    "message": "Submitting a market order to liquidate this position.",
+    "order": {
+        "id": 7871594882,
+        "type": "MARKET",
+        "pair": "EDOUSD",
+        "status": "ACTIVE (note:POSCLOSE)",
+        "created_at": "2018-02-03T11:14:51.070618Z",
+        "updated_at": "2018-02-03T11:14:51.070618Z",
+        "user_id": 1426966,
+        "amount": "17.0",
+        "price": null,
+        "originalamount": "17.0",
+        "routing": "",
+        "lockedperiod": null,
+        "trailingprice": "0.0",
+        "hidden": false,
+        "vir": 1,
+        "maxrate": "0.0",
+        "placed_id": null,
+        "placed_trades": null,
+        "nopayback": null,
+        "avg_price": "0.0",
+        "active": 2,
+        "fiat_currency": null,
+        "cid": null,
+        "cid_date": null,
+        "mseq": 0,
+        "gid": null,
+        "flags": 0,
+        "price_aux_limit": "0.0",
+        "type_prev": null,
+        "tif": null,
+        "v_pair": "EDOUSD",
+        "meta": null
+    },
+    "position": {
+        "id": 134845999,
+        "pair": "EDOUSD",
+        "status": "ACTIVE",
+        "user_id": 1426966,
+        "created_at": "2018-02-03T10:02:46.000000Z",
+        "updated_at": "2018-02-03T11:03:09.000000Z",
+        "amount": "-17.0",
+        "base": "2.6",
+        "swap": "-0.00003842",
+        "noliquidation": null,
+        "period": null,
+        "vir": 1,
+        "maxrate": "0.0",
+        "swap_type": 0,
+        "active": 1
+    }
+}
